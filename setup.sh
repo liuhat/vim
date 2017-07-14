@@ -21,9 +21,9 @@ mv -f ~/vim ~/.vim
 mv -f ~/.vimrc ~/.vimrc_old
 mv -f ~/.vim/.vimrc ~/
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-echo "liuhat正在努力为您安装bundle程序" > liuhat
-echo "安装完毕将自动退出" >> liuhat
-echo "请耐心等待" >> liuhat
-vim liuhat -c "BundleInstall" -c "q" -c "q"
-rm liuhat
+echo "liuha正在努力为您安装bundle程序" > liuha
+echo "安装完毕将自动退出" >> liuha
+echo "请耐心等待" >> liuha
+vim liuha -c "BundleInstall" -c "q" -c "q"
+rm liuha
 echo "安装完成"
